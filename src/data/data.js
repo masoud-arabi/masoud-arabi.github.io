@@ -1,33 +1,34 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+import Alcyon from '../assets/projects/alcyon1.png'
+import Lepied from '../assets/projects/lepied1.png'
+import Mixed from '../assets/projects/mixed1.png'
 
 export const data=[
     {
         id:1,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
+        name:"Ruby on Rails Application",
+        image:Alcyon,
+        github:"https://github.com/masoud-arabi",
+        live:"https://alcyonsel.com/",
     },
     {
         id:2,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
+        name:"Ruby on Rails Application",
+        image:Lepied,
+        github:"https://github.com/masoud-arabi",
+        live:"https://www.lepiedmarinproduction.com/",
     },
     {
         id:3,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
+        name:"Ruby on Rails Application",
+        image:Mixed,
+        github:"https://github.com/masoud-arabi",
+        live:"https://mixedkidsco.com/",
     },
     {
         id:4,
         name:"React JS Application",
-        image:RealEst,
-        github:"",
+        image:Mixed,
+        github:"https://github.com/masoud-arabi/react-shopping-cart",
         live:"",
     },
 

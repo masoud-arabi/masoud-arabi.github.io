@@ -14,14 +14,33 @@ const About = () => {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Sai Kumar, nice to meet you. Please take a look around.</p>
+              <p>I am a Full Stack Developer with specialliztion in Ruby and Ruby on Rails
+                backend frameworks. Working in various teams and environments lead me to
+                learn more programming languages and frameworks. I also learned more about
+                Javascript and Typescript frameworks relying on market needs during recent years..</p>
             </div>
             <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
+              <span><strong>Backend</strong></span> 
+              <p>I am a Full Stack Developer with specialliztion in Ruby and Ruby on Rails
+                backend frameworks. Working in various teams and environments lead me to
+                learn more programming languages and frameworks. I also learned more about
+                Javascript and Typescript frameworks relying on market needs during recent years.
+              </p>  
+              <br/>
+              <span><strong>Frontend</strong></span> 
+              <p>I am a Full Stack Developer with specialliztion in Ruby and Ruby on Rails
+                backend frameworks. Working in various teams and environments lead me to
+                learn more programming languages and frameworks. I also learned more about
+                Javascript and Typescript frameworks relying on market needs during recent years.
+              </p>  
+              <br/>
+              <span><strong>Devops& CI/CD</strong></span> 
+              <p>I am a Full Stack Developer with specialliztion in Ruby and Ruby on Rails
+                backend frameworks. Working in various teams and environments lead me to
+                learn more programming languages and frameworks. I also learned more about
+                Javascript and Typescript frameworks relying on market needs during recent years.
+              </p>  
+              
             </div>
           </div>
       </div>
