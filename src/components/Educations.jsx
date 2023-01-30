@@ -2,7 +2,7 @@ import React from 'react';
 
 const Educations = () => {
   return (
-    <div name='education' className='w-full sm:h-screen bg-[#0a192f] text-[#BDBCB8]'>
+    <div name='education' className='w-full sm:h-screen bg-[#0a192f] text-[#BDBCB8] pt-32'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
@@ -46,6 +46,15 @@ const Educations = () => {
                 <p>more than 300 houres intensive coding Bootcamp learning
                     HTML5, CSS3, JavaScript ES6, Jquery
                     MySQL, git and created some single page application.
+                </p>
+            </div>
+            <div className='sm:text-right'>
+              <p className='text-4xl font-bold'>Yazd University</p>  
+              <p className='pt-4 text-xl font-bold'>September 2006 - June 2011</p>  
+            </div>
+            <div>
+                <span><strong>Industrial Engineering</strong></span> 
+                <p>4 years bacheloaur in industrial engineering
                 </p>
             </div>
           </div>

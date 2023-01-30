@@ -5,15 +5,12 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
-import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
-import Mongo from '../assets/mongo.png';
-import RUBY from '../assets/ruby.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full sm:h-screen bg-[#0a192f] text-[#BDBCB8] pt-8'>
+    <div name='skills' className='w-full sm:h-screen bg-[#0a192f] text-[#BDBCB8] pt-32'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>

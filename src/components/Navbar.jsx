@@ -17,7 +17,9 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-[#BDBCB8]'>
       <div>
-        <img src={Logo} alt='Logo Image' style={{ width: '200px' }} />
+        <Link to='home' smooth={true} duration={500}>
+          <img src={Logo} alt='Logo Image' style={{ width: '200px' }} />
+        </Link>
       </div>
 
       {/* menu */}
@@ -33,23 +35,23 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li>
           <Link to='experience' smooth={true} duration={500}>
             Experience
           </Link>
         </li>
         <li>
-          <Link to='projects' smooth={true} duration={500}>
-            Projects
+          <Link to='education' smooth={true} duration={500}>
+            Education
           </Link>
         </li>
         <li>
-          <Link to='education' smooth={true} duration={500}>
-            Education
+          <Link to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to='projects' smooth={true} duration={500}>
+            Projects
           </Link>
         </li>
         <li>
@@ -85,26 +87,26 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
           <Link onClick={handleClick} to='experience' smooth={true} duration={500}>
             Experience
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
-            Projects
+          <Link onClick={handleClick} to='education' smooth={true} duration={500}>
+            Education
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='education' smooth={true} duration={500}>
-            Education
+          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
+            Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -139,7 +141,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#b1553b]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='masoud.arabi.dev@gmail.com'
+              href='mailto:masoud.arabi.dev@gmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
