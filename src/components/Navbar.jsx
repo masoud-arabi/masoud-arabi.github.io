@@ -4,8 +4,6 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -17,7 +15,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-[#BDBCB8]'>
       <div>
         <img src={Logo} alt='Logo Image' style={{ width: '200px' }} />
       </div>
@@ -40,8 +38,18 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
-            Work
+          <Link to='experience' smooth={true} duration={500}>
+            Experience
+          </Link>
+        </li>
+        <li>
+          <Link to='projects' smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link to='education' smooth={true} duration={500}>
+            Education
           </Link>
         </li>
         <li>
@@ -83,8 +91,20 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+          <Link onClick={handleClick} to='experience' smooth={true} duration={500}>
+            Experience
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='education' smooth={true} duration={500}>
+            Education
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -102,6 +122,7 @@ const Navbar = () => {
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/masoud-arabi/'
+              target="_blank"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -110,22 +131,24 @@ const Navbar = () => {
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://github.com/masoud-arabi'
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#b1553b]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='masoud.arabi2030@gmail.com'
+              href='masoud.arabi.dev@gmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#79915d]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://res.cloudinary.com/dvib128yy/image/upload/v1613591953/fe50ghqvkmwqgb7b3c7i.jpg'
+              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
