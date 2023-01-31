@@ -4,9 +4,10 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
+  ImLocation,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsFillPersonLinesFill, BsGeoAltFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 
@@ -149,10 +150,19 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#79915d]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://res.cloudinary.com/dvib128yy/image/upload/v1613591953/fe50ghqvkmwqgb7b3c7i.jpg'
+              href='https://res.cloudinary.com/dvib128yy/image/upload/v1675186058/Masoud-Arabi-CV_eu70qb.jpg'
               target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+          <li className='w-[260px] h-[60px] flex justify-between items-center ml-[-200px] hover:ml-[-10px] duration-300 bg-[#76448f]'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href=''
+              target=""
+            >
+              Montreal, QC, Canada  <BsGeoAltFill size={30} />
             </a>
           </li>
         </ul>
