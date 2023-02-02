@@ -19,7 +19,7 @@ const Experience = () => {
               <p className='pt-4 text-xl font-bold'>January 2021 - present</p>  
             </div>
             <div>
-              <span><strong>Responsibilities</strong></span> 
+              <span><strong>Fullstack Ruby on Rails developer</strong></span> 
               <ul>
                 <p className='py-2'>Develop new features, and maintain the main platform of Collab machine.</p>
                 <p className='py-2'>Complete database migrations with Active Record.</p>

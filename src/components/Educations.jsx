@@ -44,7 +44,7 @@ const Educations = () => {
             <div>
                 <span><strong>Forntend development</strong></span> 
                 <p>more than 300 houres intensive coding Bootcamp learning
-                    HTML5, CSS3, JavaScript ES6, Jquery
+                    HTML5, CSS3, JavaScript ES6, JQuery
                     MySQL, git and created some single page application.
                 </p>
             </div>
@@ -54,7 +54,7 @@ const Educations = () => {
             </div>
             <div>
                 <span><strong>Industrial Engineering</strong></span> 
-                <p>4 years bacheloaur in industrial engineering
+                <p>bachelor's degree in industrial engineering
                 </p>
             </div>
           </div>
